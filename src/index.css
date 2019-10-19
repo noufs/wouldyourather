@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.active {
+  font-weight: bold;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.nav li, .linkedli {
+  color:#5f5f5f;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+.question-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+}
+
+.tabs{
+  border-radius : 6px 6px 0 0 !important;
+}
+.avatar {
+  height: 100px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.loggedInAvatar{
+  height: 20px;
+  width:20px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.question {
+  width: 100%;
+  max-width: 590px;
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+
+}
+
+.question-info {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.score { 
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  background: #2c8099
+}
+ 
+.auwthedUserAwnser
+{
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: #ffd045;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #ffd045;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+p{
+  font-size: 20px;
+}
+.authedUserAwnser {
+  background-color: rgba(255, 194, 38, 0.5);
+  border-radius: 5px;
+  border:1px solid rgba(255, 194, 38, 1);
+}
+  /* .authedUserAwnser:before, .authedUserAwnser:after {
+    content: '';
+    
+    display: block;
+    width: 0;
+    height: 0;
+    
+    position: absolute;
+    top: .6em;
+    left: -1em;
+  
+    border-right:  1em solid transparent;
+    border-bottom: .7em  solid #FC0;
+    border-left:   1em solid transparent;
+  
+    transform: rotate(-35deg);
+  }
+  
+  .authedUserAwnser:after {  
+    transform: rotate(35deg);
+  } */
