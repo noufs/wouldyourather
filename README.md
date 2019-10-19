@@ -5,8 +5,13 @@ users can also view the result after submitting the question and view the leader
 
 ## Technologies used
 * React js
-* React Router 
-* BookAPI provided by udacity to get books information
+* React-Router 
+* React-Redux
+* Redux
+* React-thunk
+* React Bootstrap
+* React-redux-loading
+* _DATA.js provided by udacity to get users and questions information
 
 
 ## How to get project
